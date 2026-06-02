@@ -41,7 +41,9 @@ results/ – Graphs, visualizations, and confusion matrices
 
 analysis.py – Exploratory Data Analysis and visualizations
 
-train_model.py – Model training, evaluation, and saving
+experimental.py - Contains experimentation and model comparison workflows.
+
+train_model.py – Model training, evaluation, and saving and contains the final production-ready XGBoost training pipeline.
 
 ## Exploratory Data Analysis
 
