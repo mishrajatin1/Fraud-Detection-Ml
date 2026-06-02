@@ -89,7 +89,7 @@ print("XGB Model Trained Successfully.")
 
 xgb_probs = xgb.predict_proba(X_test)[:, 1]
 
-# FINAL CHOSEN THRESHOLD (YOUR BEST)
+# FINAL CHOSEN THRESHOLD 
 THRESHOLD = 0.967
 xgb_pred = (xgb_probs >= THRESHOLD).astype(int)
 
